@@ -6896,10 +6896,6 @@
         "text-halo-width": 1
       }
     }
-  ],
-  "terrain": {
-    "source": "aws-terrain-tiles",
-    "exaggeration": 2
-  }
+  ]
 }
 
