@@ -1,8 +1,8 @@
 {
     "version": 8,
     "name": "MapLibre with Protomaps on nextJS",
-    "sprite": "https://protomaps.github.io/basemaps-assets/sprites/v4/light",
-    "glyphs": "https://protomaps.github.io/basemaps-assets/fonts/{fontstack}/{range}.pbf",
+    "sprite": "https://latidudemaps.github.io/basemap-assets/sprites/v4/light",
+    "glyphs": "https://latidudemaps.github.io/basemap-assets/fonts/{fontstack}/{range}.pbf",
     "sources": {
         "protomaps": {
             "type": "vector",
