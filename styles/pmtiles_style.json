@@ -7,7 +7,7 @@
         "protomaps": {
             "type": "vector",
             "attribution": "<a href=\"https://github.com/protomaps/basemaps\">Protomaps</a> © <a href=\"https://openstreetmap.org\">OpenStreetMap</a>",
-            "tiles": ["https://pmtiles-cloudflare.latidude-maps.workers.dev/world/{z}/{x}/{y}.mvt"]
+            "url": "pmtiles://https://pmtiles-cloudflare.latidude-maps.workers.dev/world.pmtiles"
         }
     },
     "layers": [
