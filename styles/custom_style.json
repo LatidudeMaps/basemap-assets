@@ -1,0 +1,13 @@
+{
+  "version": 8,
+  "name": "MapLibre Vite App Example",
+  "sources": {
+    "maplibre": {
+      "url": "https://demotiles.maplibre.org/tiles/tiles.json",
+      "type": "vector"
+    }
+  },
+  "sprite": "https://latidudemaps.github.io/basemap-assets/sprites/v4/light",
+  "glyphs": "https://latidudemaps.github.io/basemap-assets/fonts/{fontstack}/{range}.pbf",
+  "layers": []
+}
