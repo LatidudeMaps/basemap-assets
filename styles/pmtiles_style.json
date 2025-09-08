@@ -7,7 +7,7 @@
         "protomaps": {
             "type": "vector",
             "attribution": "<a href=\"https://github.com/protomaps/basemaps\">Protomaps</a> © <a href=\"https://openstreetmap.org\">OpenStreetMap</a>",
-            "url": "pmtiles://https://protomaps.micheletricarico.com/world.pmtiles"
+            "url": "https://protomaps.micheletricarico.com/world.json"
         }
     },
     "layers": [
