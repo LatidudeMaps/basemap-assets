@@ -9,6 +9,15 @@
     "openmaptiles": {
       "type": "vector",
       "url": "https://tiles.openfreemap.org/planet"
+    },
+    "aws-terrain-hillshade": {
+      "type": "raster-dem",
+      "tiles": [
+        "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/{z}/{x}/{y}.png"
+      ],
+      "tileSize": 256,
+      "attribution": "Terrain data © AWS Terrain Tiles",
+      "encoding": "terrarium"
     }
   },
   "layers": [
@@ -5108,6 +5117,23 @@
       }
     },
     {
+      "id": "aws-hillshade",
+      "type": "hillshade",
+      "source": "aws-terrain-hillshade",
+      "layout": {
+        "visibility": "visible"
+      },
+      "paint": {
+        "hillshade-illumination-direction": 45,
+        "hillshade-illumination-anchor": "viewport",
+        "hillshade-exaggeration": 0.35,
+        "hillshade-shadow-color": "#123346",
+        "hillshade-highlight-color": "#f1e2c4",
+        "hillshade-accent-color": "#aa7942",
+        "hillshade-method": "standard"
+      }
+    },
+    {
       "id": "road_oneway",
       "type": "symbol",
       "source": "openmaptiles",
@@ -6872,3 +6898,4 @@
     }
   ]
 }
+
