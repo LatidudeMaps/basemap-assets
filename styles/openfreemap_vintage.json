@@ -308,7 +308,7 @@
         false
       ],
       "layout": {
-        "visibility": "visible"
+        "visibility": "none"
       },
       "paint": {
         "fill-color": "#bdc5b4",
@@ -6672,13 +6672,13 @@
             "zoom"
           ],
           4,
-          12,
+          11,
           7,
           14,
           11,
           20
         ],
-        "text-transform": "uppercase",
+        "text-transform": "none",
         "visibility": "visible"
       },
       "paint": {
@@ -6743,9 +6743,9 @@
             "zoom"
           ],
           3,
-          9,
+          6,
           7,
-          17
+          12
         ],
         "text-transform": "uppercase",
         "text-letter-spacing": 0.1,
@@ -6812,9 +6812,9 @@
             "zoom"
           ],
           2,
-          9,
+          6,
           5,
-          17
+          12
         ],
         "text-transform": "uppercase",
         "text-letter-spacing": 0.2,
@@ -6881,12 +6881,12 @@
             "zoom"
           ],
           1,
-          9,
+          6,
           4,
-          17
+          12
         ],
         "text-transform": "uppercase",
-        "text-letter-spacing": 0.3,
+        "text-letter-spacing": 0.1,
         "visibility": "visible"
       },
       "paint": {
@@ -6898,4 +6898,3 @@
     }
   ]
 }
-
