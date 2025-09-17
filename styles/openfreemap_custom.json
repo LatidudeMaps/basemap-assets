@@ -14,7 +14,7 @@
             "url": "https://tiles.openfreemap.org/planet"
         }
     },
-    "sprite": "https://latidudemaps.github.io/basemap-assets/sprites/lucide",
+    "sprite": "https://latidudemaps.github.io/basemap-assets/sprites/lucide-icons",
     "glyphs": "https://latidudemaps.github.io/basemap-assets/fonts/{fontstack}/{range}.pbf",
     "layers": [
         {
