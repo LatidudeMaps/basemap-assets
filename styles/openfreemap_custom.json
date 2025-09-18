@@ -38,6 +38,10 @@
         {
             "id": "phosphor-fill",
             "url": "https://latidudemaps.github.io/basemap-assets/sprites/phosphor/fill"
+        },
+        {
+            "id": "geopatterns",
+            "url": "https://latidudemaps.github.io/basemap-assets/sprites/geo-patterns/geopatterns"
         }
     ],    
     "glyphs": "https://latidudemaps.github.io/basemap-assets/fonts/{fontstack}/{range}.pbf",
