@@ -14,7 +14,32 @@
             "url": "https://tiles.openfreemap.org/planet"
         }
     },
-    "sprite": "https://latidudemaps.github.io/basemap-assets/sprites/lucide/lucide-icons",
+    "sprite": [
+        {
+            "id": "default",
+            "url": "https://tiles.openfreemap.org/sprites/ofm_f384/ofm"
+        },
+        {
+            "id": "lucide",
+            "url": "https://latidudemaps.github.io/basemap-assets/sprites/lucide/lucide-icons"
+        },
+        {
+            "id": "phosphor-regular",
+            "url": "https://latidudemaps.github.io/basemap-assets/sprites/phosphor/regular"
+        },
+        {
+            "id": "phosphor-bold",
+            "url": "https://latidudemaps.github.io/basemap-assets/sprites/phosphor/bold"
+        },
+        {
+            "id": "phosphor-thin",
+            "url": "https://latidudemaps.github.io/basemap-assets/sprites/phosphor/thin"
+        },
+        {
+            "id": "phosphor-fill",
+            "url": "https://latidudemaps.github.io/basemap-assets/sprites/phosphor/fill"
+        }
+    ],    
     "glyphs": "https://latidudemaps.github.io/basemap-assets/fonts/{fontstack}/{range}.pbf",
     "layers": [
         {
