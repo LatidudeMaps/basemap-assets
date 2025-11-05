@@ -42,6 +42,14 @@
         {
             "id": "geopatterns",
             "url": "https://latidudemaps.github.io/basemap-assets/sprites/geo-patterns/geopatterns"
+        },
+        {
+            "id": "ai-made",
+            "url": "https://latidudemaps.github.io/basemap-assets/sprites/fresh/32x32"
+        },
+        {
+            "id": "geo-lines",
+            "url": "https://latidudemaps.github.io/basemap-assets/sprites/fresh/geological-line-patterns"
         }
     ],    
     "glyphs": "https://latidudemaps.github.io/basemap-assets/fonts/{fontstack}/{range}.pbf",
