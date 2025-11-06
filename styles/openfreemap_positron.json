@@ -14,7 +14,44 @@
       "url": "https://tiles.openfreemap.org/planet"
     }
   },
-  "sprite": "https://tiles.openfreemap.org/sprites/ofm_f384/ofm",
+  "sprite": [
+      {
+          "id": "default",
+          "url": "https://tiles.openfreemap.org/sprites/ofm_f384/ofm"
+      },
+      {
+          "id": "lucide",
+          "url": "https://latidudemaps.github.io/basemap-assets/sprites/lucide/lucide-icons"
+      },
+      {
+          "id": "phosphor-regular",
+          "url": "https://latidudemaps.github.io/basemap-assets/sprites/phosphor/regular"
+      },
+      {
+          "id": "phosphor-bold",
+          "url": "https://latidudemaps.github.io/basemap-assets/sprites/phosphor/bold"
+      },
+      {
+          "id": "phosphor-thin",
+          "url": "https://latidudemaps.github.io/basemap-assets/sprites/phosphor/thin"
+      },
+      {
+          "id": "phosphor-fill",
+          "url": "https://latidudemaps.github.io/basemap-assets/sprites/phosphor/fill"
+      },
+      {
+          "id": "geopatterns",
+          "url": "https://latidudemaps.github.io/basemap-assets/sprites/geo-patterns/geopatterns"
+      },
+      {
+          "id": "ai-made",
+          "url": "https://latidudemaps.github.io/basemap-assets/sprites/fresh/32x32"
+      },
+      {
+          "id": "geo-lines",
+          "url": "https://latidudemaps.github.io/basemap-assets/sprites/fresh/geological-line-patterns"
+      }
+  ],    
   "glyphs": "https://tiles.openfreemap.org/fonts/{fontstack}/{range}.pbf",
   "layers": [
     {
