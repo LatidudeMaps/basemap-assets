@@ -44,7 +44,9 @@
       "type": "raster",
       "attribution": "Tiles &copy; Esri",
       "tileSize": 256,
-      "tiles": ["https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}"]
+      "tiles": [
+        "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}"
+      ]
     },
     "openmaptiles": {
       "type": "vector",
@@ -202,30 +204,15 @@
           "case",
           [
             "has",
-            "name:nonlatin"
+            "name_en"
           ],
           [
-            "concat",
-            [
-              "get",
-              "name:latin"
-            ],
-            " ",
-            [
-              "get",
-              "name:nonlatin"
-            ]
+            "get",
+            "name_en"
           ],
           [
-            "coalesce",
-            [
-              "get",
-              "name_en"
-            ],
-            [
-              "get",
-              "name"
-            ]
+            "get",
+            "name"
           ]
         ],
         "text-font": [
@@ -263,30 +250,15 @@
           "case",
           [
             "has",
-            "name:nonlatin"
+            "name_en"
           ],
           [
-            "concat",
-            [
-              "get",
-              "name:latin"
-            ],
-            "\n",
-            [
-              "get",
-              "name:nonlatin"
-            ]
+            "get",
+            "name_en"
           ],
           [
-            "coalesce",
-            [
-              "get",
-              "name_en"
-            ],
-            [
-              "get",
-              "name"
-            ]
+            "get",
+            "name"
           ]
         ],
         "text-font": [
@@ -338,30 +310,15 @@
           "case",
           [
             "has",
-            "name:nonlatin"
+            "name_en"
           ],
           [
-            "concat",
-            [
-              "get",
-              "name:latin"
-            ],
-            " ",
-            [
-              "get",
-              "name:nonlatin"
-            ]
+            "get",
+            "name_en"
           ],
           [
-            "coalesce",
-            [
-              "get",
-              "name_en"
-            ],
-            [
-              "get",
-              "name"
-            ]
+            "get",
+            "name"
           ]
         ],
         "text-font": [
@@ -431,30 +388,15 @@
           "case",
           [
             "has",
-            "name:nonlatin"
+            "name_en"
           ],
           [
-            "concat",
-            [
-              "get",
-              "name:latin"
-            ],
-            "\n",
-            [
-              "get",
-              "name:nonlatin"
-            ]
+            "get",
+            "name_en"
           ],
           [
-            "coalesce",
-            [
-              "get",
-              "name_en"
-            ],
-            [
-              "get",
-              "name"
-            ]
+            "get",
+            "name"
           ]
         ],
         "text-font": [
@@ -536,30 +478,15 @@
           "case",
           [
             "has",
-            "name:nonlatin"
+            "name_en"
           ],
           [
-            "concat",
-            [
-              "get",
-              "name:latin"
-            ],
-            "\n",
-            [
-              "get",
-              "name:nonlatin"
-            ]
+            "get",
+            "name_en"
           ],
           [
-            "coalesce",
-            [
-              "get",
-              "name_en"
-            ],
-            [
-              "get",
-              "name"
-            ]
+            "get",
+            "name"
           ]
         ],
         "text-font": [
@@ -641,30 +568,15 @@
           "case",
           [
             "has",
-            "name:nonlatin"
+            "name_en"
           ],
           [
-            "concat",
-            [
-              "get",
-              "name:latin"
-            ],
-            "\n",
-            [
-              "get",
-              "name:nonlatin"
-            ]
+            "get",
+            "name_en"
           ],
           [
-            "coalesce",
-            [
-              "get",
-              "name_en"
-            ],
-            [
-              "get",
-              "name"
-            ]
+            "get",
+            "name"
           ]
         ],
         "text-font": [
@@ -717,30 +629,15 @@
           "case",
           [
             "has",
-            "name:nonlatin"
+            "name_en"
           ],
           [
-            "concat",
-            [
-              "get",
-              "name:latin"
-            ],
-            "\n",
-            [
-              "get",
-              "name:nonlatin"
-            ]
+            "get",
+            "name_en"
           ],
           [
-            "coalesce",
-            [
-              "get",
-              "name_en"
-            ],
-            [
-              "get",
-              "name"
-            ]
+            "get",
+            "name"
           ]
         ],
         "text-font": [
@@ -780,30 +677,15 @@
           "case",
           [
             "has",
-            "name:nonlatin"
+            "name_en"
           ],
           [
-            "concat",
-            [
-              "get",
-              "name:latin"
-            ],
-            " ",
-            [
-              "get",
-              "name:nonlatin"
-            ]
+            "get",
+            "name_en"
           ],
           [
-            "coalesce",
-            [
-              "get",
-              "name_en"
-            ],
-            [
-              "get",
-              "name"
-            ]
+            "get",
+            "name"
           ]
         ],
         "text-font": [
@@ -871,30 +753,15 @@
           "case",
           [
             "has",
-            "name:nonlatin"
+            "name_en"
           ],
           [
-            "concat",
-            [
-              "get",
-              "name:latin"
-            ],
-            " ",
-            [
-              "get",
-              "name:nonlatin"
-            ]
+            "get",
+            "name_en"
           ],
           [
-            "coalesce",
-            [
-              "get",
-              "name_en"
-            ],
-            [
-              "get",
-              "name"
-            ]
+            "get",
+            "name"
           ]
         ],
         "text-font": [
@@ -948,30 +815,15 @@
           "case",
           [
             "has",
-            "name:nonlatin"
+            "name_en"
           ],
           [
-            "concat",
-            [
-              "get",
-              "name:latin"
-            ],
-            " ",
-            [
-              "get",
-              "name:nonlatin"
-            ]
+            "get",
+            "name_en"
           ],
           [
-            "coalesce",
-            [
-              "get",
-              "name_en"
-            ],
-            [
-              "get",
-              "name"
-            ]
+            "get",
+            "name"
           ]
         ],
         "text-font": [
@@ -1260,30 +1112,15 @@
           "case",
           [
             "has",
-            "name:nonlatin"
+            "name_en"
           ],
           [
-            "concat",
-            [
-              "get",
-              "name:latin"
-            ],
-            "\n",
-            [
-              "get",
-              "name:nonlatin"
-            ]
+            "get",
+            "name_en"
           ],
           [
-            "coalesce",
-            [
-              "get",
-              "name_en"
-            ],
-            [
-              "get",
-              "name"
-            ]
+            "get",
+            "name"
           ]
         ],
         "text-font": [
@@ -1333,30 +1170,15 @@
           "case",
           [
             "has",
-            "name:nonlatin"
+            "name_en"
           ],
           [
-            "concat",
-            [
-              "get",
-              "name:latin"
-            ],
-            "\n",
-            [
-              "get",
-              "name:nonlatin"
-            ]
+            "get",
+            "name_en"
           ],
           [
-            "coalesce",
-            [
-              "get",
-              "name_en"
-            ],
-            [
-              "get",
-              "name"
-            ]
+            "get",
+            "name"
           ]
         ],
         "text-font": [
@@ -1418,30 +1240,15 @@
           "case",
           [
             "has",
-            "name:nonlatin"
+            "name_en"
           ],
           [
-            "concat",
-            [
-              "get",
-              "name:latin"
-            ],
-            "\n",
-            [
-              "get",
-              "name:nonlatin"
-            ]
+            "get",
+            "name_en"
           ],
           [
-            "coalesce",
-            [
-              "get",
-              "name_en"
-            ],
-            [
-              "get",
-              "name"
-            ]
+            "get",
+            "name"
           ]
         ],
         "text-font": [
@@ -1502,30 +1309,15 @@
           "case",
           [
             "has",
-            "name:nonlatin"
+            "name_en"
           ],
           [
-            "concat",
-            [
-              "get",
-              "name:latin"
-            ],
-            "\n",
-            [
-              "get",
-              "name:nonlatin"
-            ]
+            "get",
+            "name_en"
           ],
           [
-            "coalesce",
-            [
-              "get",
-              "name_en"
-            ],
-            [
-              "get",
-              "name"
-            ]
+            "get",
+            "name"
           ]
         ],
         "text-font": [
@@ -1574,30 +1366,15 @@
           "case",
           [
             "has",
-            "name:nonlatin"
+            "name_en"
           ],
           [
-            "concat",
-            [
-              "get",
-              "name:latin"
-            ],
-            "\n",
-            [
-              "get",
-              "name:nonlatin"
-            ]
+            "get",
+            "name_en"
           ],
           [
-            "coalesce",
-            [
-              "get",
-              "name_en"
-            ],
-            [
-              "get",
-              "name"
-            ]
+            "get",
+            "name"
           ]
         ],
         "text-font": [
@@ -1670,30 +1447,15 @@
           "case",
           [
             "has",
-            "name:nonlatin"
+            "name_en"
           ],
           [
-            "concat",
-            [
-              "get",
-              "name:latin"
-            ],
-            "\n",
-            [
-              "get",
-              "name:nonlatin"
-            ]
+            "get",
+            "name_en"
           ],
           [
-            "coalesce",
-            [
-              "get",
-              "name_en"
-            ],
-            [
-              "get",
-              "name"
-            ]
+            "get",
+            "name"
           ]
         ],
         "text-font": [
@@ -1771,30 +1533,15 @@
           "case",
           [
             "has",
-            "name:nonlatin"
+            "name_en"
           ],
           [
-            "concat",
-            [
-              "get",
-              "name:latin"
-            ],
-            "\n",
-            [
-              "get",
-              "name:nonlatin"
-            ]
+            "get",
+            "name_en"
           ],
           [
-            "coalesce",
-            [
-              "get",
-              "name_en"
-            ],
-            [
-              "get",
-              "name"
-            ]
+            "get",
+            "name"
           ]
         ],
         "text-font": [
@@ -1860,30 +1607,15 @@
           "case",
           [
             "has",
-            "name:nonlatin"
+            "name_en"
           ],
           [
-            "concat",
-            [
-              "get",
-              "name:latin"
-            ],
-            "\n",
-            [
-              "get",
-              "name:nonlatin"
-            ]
+            "get",
+            "name_en"
           ],
           [
-            "coalesce",
-            [
-              "get",
-              "name_en"
-            ],
-            [
-              "get",
-              "name"
-            ]
+            "get",
+            "name"
           ]
         ],
         "text-font": [
@@ -1941,30 +1673,15 @@
           "case",
           [
             "has",
-            "name:nonlatin"
+            "name_en"
           ],
           [
-            "concat",
-            [
-              "get",
-              "name:latin"
-            ],
-            "\n",
-            [
-              "get",
-              "name:nonlatin"
-            ]
+            "get",
+            "name_en"
           ],
           [
-            "coalesce",
-            [
-              "get",
-              "name_en"
-            ],
-            [
-              "get",
-              "name"
-            ]
+            "get",
+            "name"
           ]
         ],
         "text-font": [
@@ -2022,30 +1739,15 @@
           "case",
           [
             "has",
-            "name:nonlatin"
+            "name_en"
           ],
           [
-            "concat",
-            [
-              "get",
-              "name:latin"
-            ],
-            "\n",
-            [
-              "get",
-              "name:nonlatin"
-            ]
+            "get",
+            "name_en"
           ],
           [
-            "coalesce",
-            [
-              "get",
-              "name_en"
-            ],
-            [
-              "get",
-              "name"
-            ]
+            "get",
+            "name"
           ]
         ],
         "text-font": [
